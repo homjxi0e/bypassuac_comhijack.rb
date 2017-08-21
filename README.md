@@ -6,11 +6,11 @@ The Microsoft Component Object Model (COM) is a platform-independent, distribute
 ====================================================================================||>
 # what is Authors Bypass UAc Thanks On friends
 [@enigma0x3](https://twitter.com/enigma0x3)
-
+-----
 [@FuzzySec](https://twitter.com/FuzzySec)
 -----
 [@OJ](https://twitter.com/TheColonial)
-
+-----
 # What is the Script Bypass !
       This module will bypass Windows UAC by creating COM handler registry entries in the
         HKCU hive. When certain high integrity processes are loaded, these registry entries
