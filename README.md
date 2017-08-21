@@ -8,5 +8,21 @@ The Microsoft Component Object Model (COM) is a platform-independent, distribute
 [@enigma0x3](https://twitter.com/enigma0x3)
 
 [@FuzzySec](https://twitter.com/FuzzySec)
-
+-----
 [@OJ](https://twitter.com/TheColonial)
+
+# What is the Script Bypass !
+      This module will bypass Windows UAC by creating COM handler registry entries in the
+        HKCU hive. When certain high integrity processes are loaded, these registry entries
+        are referenced resulting in the process loading user-controlled DLLs. These DLLs
+        contain the payloads that result in elevated sessions. Registry key modifications
+        are cleaned up after payload invocation.
+        This module requires the architecture of the payload to match the OS, but the
+        current low-privilege Meterpreter session architecture can be different. If
+        specifying EXE::Custom your DLL should call ExitProcess() after starting your
+        payload in a separate process.
+        This module invokes the target binary via cmd.exe on the target. Therefore if
+        cmd.exe access is restricted, this module will not run correctly
+        ,,
+====================================================================================||>
+====================================================================================||>
