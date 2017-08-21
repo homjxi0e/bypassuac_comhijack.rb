@@ -3,5 +3,4 @@ The Microsoft Component Object Model (COM) is a platform-independent, distribute
 
 #
 #
-[Link Text](https://msdn.microsoft.com/en-us/library/windows/desktop/ms694363%28v=vs.85%29.aspx).
-https://msdn.microsoft.com/en-us/library/windows/desktop/ms694363%28v=vs.85%29.aspx
+[Learn more on Component Object Model (COM)](https://msdn.microsoft.com/en-us/library/windows/desktop/ms694363%28v=vs.85%29.aspx).
