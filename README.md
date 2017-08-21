@@ -22,7 +22,7 @@ The Microsoft Component Object Model (COM) is a platform-independent, distribute
         specifying EXE::Custom your DLL should call ExitProcess() after starting your
         payload in a separate process.
         This module invokes the target binary via cmd.exe on the target. Therefore if
-        cmd.exe access is restricted, this module will not run correctly
+        cmd.exe access is restricted, this module will not run correctly,
         ,,
 ====================================================================================||>
 ====================================================================================||>
